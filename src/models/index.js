@@ -6,7 +6,7 @@ const { DataTypes } = require('sequelize');
 
 const Donacion = sequelize.define('Donacion', {
   id: { type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true },
-  usuario_id: { type: DataTypes.INTEGER },
+  usuario_id: { type: DataTypes.INTEGER, allowNull: true },
   donante_id: { type: DataTypes.INTEGER },
   cantidad: { type: DataTypes.FLOAT },
   fecha: { type: DataTypes.DATE, defaultValue: DataTypes.NOW }
