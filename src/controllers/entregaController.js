@@ -38,7 +38,8 @@ const crearEntrega = async (req, res) => {
       await Promise.all(productos.map(p =>
         EntregaProducto.create({
           entrega_id: entrega.id,
-          producto_id: p.producto_id
+          producto_id: p.producto_id,
+          cantidad: p.cantidad || 0
         })
       ));
     }
