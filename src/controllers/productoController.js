@@ -1,6 +1,7 @@
 const { Producto } = require('../models/index');
+const { Op, fn, col, literal } = require('sequelize');
 
-// Obtener todos los productos
+// Obtener todos los productos agrupados por nombre, categoría y tipo
 const obtenerProductos = async (req, res) => {
   try {
     const productos = await Producto.findAll();
