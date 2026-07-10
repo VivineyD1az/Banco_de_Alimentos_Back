@@ -120,8 +120,8 @@ Esto crea usuarios, productos, donantes y donaciones de ejemplo, incluyendo un u
 
 ## Despliegue
 
-- **Backend:** desplegado en [Render](https://render.com)
-- **Frontend:** desplegado en [Vercel](https://vercel.com), consumiendo esta API
+- **Backend:** desplegado en [Render](https://render.com). Enlace desplegado: https://banco-de-alimentos-back.onrender.com/
+- **Frontend:** desplegado en [Vercel](https://vercel.com), consumiendo esta API. Enlace desplegado: https://banco-alimentos.vercel.app/
 
 ##  Créditos
 
