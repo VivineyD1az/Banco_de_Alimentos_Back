@@ -128,8 +128,8 @@ Esto crea usuarios, productos, donantes y donaciones de ejemplo, incluyendo un u
 Proyecto académico desarrollado en equipo como sistema de gestión para bancos de alimentos.
 
 - Implementación de autenticación (JWT), controladores centrales del negocio (donaciones, beneficiarios, entregas, inventario y reportes) y modelado de datos en Sequelize: **Daniel Guerra**
+- Configuración inicial del proyecto: conexión a base de datos, middleware de autenticación y modelos base (Usuario, Donante, Producto): **Viviney Diaz**
+— Modelo y controlador de Entrega, relación EntregaProducto, modelo de Beneficiario e integración de Pull Requests: **Ana Bojato**
   
 Notas
-Este es un proyecto académico (MVP) sin datos ni usuarios reales en producción.
-Este es un proyecto académico (MVP) sin datos ni usuarios reales en producción.
 Este es un proyecto académico (MVP) sin datos ni usuarios reales en producción.
